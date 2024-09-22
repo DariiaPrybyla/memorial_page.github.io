@@ -1,0 +1,79 @@
+@import "https://fonts.fontstorage.com/import/caviar.css";
+@import "https://fonts.fontstorage.com/import/arsenal.css";
+
+*{
+  padding: 0;
+  margin: 0;
+}
+#main {
+  margin: 30px 15px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #eee;
+}
+#title, #quote{
+  text-align: center;
+}
+#title, #tribute-info h2{
+  font-family: 'Caviar Dreams';
+}
+#quote, #img-caption, #tribute-info p{
+    font-family: 'Arsenal';
+}
+#title{
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 30px 0 0;
+  padding: 0 15px;
+}
+#quote{
+  margin: 15px 0;
+  line-height: 1.5em;
+}
+#img-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #fff;
+}
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  justify-content: center
+}
+#img-caption {
+  margin-top: 10px;
+}
+#tribute-info{
+  margin: 0 auto;
+  max-width: 700px;
+}
+#tribute-info h2{
+  margin: 30px 0;
+  text-align: center;
+}
+#tribute-info p{
+  margin-top: 15px;
+}
+#tribute-link{
+  text-underline-offset: 5px;
+  color: #000;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #title {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #title {
+    font-size: 2rem;
+  }
+  .link{
+    font-size: 1.2em;
+  }
+}
